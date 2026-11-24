@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /user/
+Disallow: /config/
+Disallow: /includes/
+
+# Replace localhost with your production domain before deployment.
+Sitemap: http://localhost/rss-news-portal/sitemap.php
